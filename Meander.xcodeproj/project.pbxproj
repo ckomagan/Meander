@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E00C00011B6FF1E900DFE20A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00CFFFF1B6FF1E900DFE20A /* LaunchScreen.xib */; };
+		E00C000D1B6FF1E900DFE20A /* MeanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C000C1B6FF1E900DFE20A /* MeanderTests.m */; };
+		E00CFFF31B6FF1E900DFE20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CFFF21B6FF1E900DFE20A /* main.m */; };
+		E00CFFF61B6FF1E900DFE20A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CFFF51B6FF1E900DFE20A /* AppDelegate.m */; };
+		E00CFFF91B6FF1E900DFE20A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CFFF81B6FF1E900DFE20A /* ViewController.m */; };
+		E00CFFFC1B6FF1E900DFE20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00CFFFA1B6FF1E900DFE20A /* Main.storyboard */; };
+		E00CFFFE1B6FF1E900DFE20A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00CFFFD1B6FF1E900DFE20A /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E00C00071B6FF1E900DFE20A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00CFFE51B6FF1E800DFE20A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00CFFEC1B6FF1E900DFE20A;
+			remoteInfo = Meander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E00C00001B6FF1E900DFE20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E00C00061B6FF1E900DFE20A /* MeanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00C000B1B6FF1E900DFE20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00C000C1B6FF1E900DFE20A /* MeanderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeanderTests.m; sourceTree = "<group>"; };
+		E00CFFED1B6FF1E900DFE20A /* Meander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00CFFF11B6FF1E900DFE20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00CFFF21B6FF1E900DFE20A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E00CFFF41B6FF1E900DFE20A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E00CFFF51B6FF1E900DFE20A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E00CFFF71B6FF1E900DFE20A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E00CFFF81B6FF1E900DFE20A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E00CFFFB1B6FF1E900DFE20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E00CFFFD1B6FF1E900DFE20A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00C00031B6FF1E900DFE20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00CFFEA1B6FF1E900DFE20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00C00091B6FF1E900DFE20A /* MeanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E00C000C1B6FF1E900DFE20A /* MeanderTests.m */,
+				E00C000A1B6FF1E900DFE20A /* Supporting Files */,
+			);
+			path = MeanderTests;
+			sourceTree = "<group>";
+		};
+		E00C000A1B6FF1E900DFE20A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00C000B1B6FF1E900DFE20A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E00CFFE41B6FF1E800DFE20A = {
+			isa = PBXGroup;
+			children = (
+				E00CFFEF1B6FF1E900DFE20A /* Meander */,
+				E00C00091B6FF1E900DFE20A /* MeanderTests */,
+				E00CFFEE1B6FF1E900DFE20A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00CFFEE1B6FF1E900DFE20A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00CFFED1B6FF1E900DFE20A /* Meander.app */,
+				E00C00061B6FF1E900DFE20A /* MeanderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00CFFEF1B6FF1E900DFE20A /* Meander */ = {
+			isa = PBXGroup;
+			children = (
+				E00CFFF41B6FF1E900DFE20A /* AppDelegate.h */,
+				E00CFFF51B6FF1E900DFE20A /* AppDelegate.m */,
+				E00CFFF71B6FF1E900DFE20A /* ViewController.h */,
+				E00CFFF81B6FF1E900DFE20A /* ViewController.m */,
+				E00CFFFA1B6FF1E900DFE20A /* Main.storyboard */,
+				E00CFFFD1B6FF1E900DFE20A /* Images.xcassets */,
+				E00CFFFF1B6FF1E900DFE20A /* LaunchScreen.xib */,
+				E00CFFF01B6FF1E900DFE20A /* Supporting Files */,
+			);
+			path = Meander;
+			sourceTree = "<group>";
+		};
+		E00CFFF01B6FF1E900DFE20A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00CFFF11B6FF1E900DFE20A /* Info.plist */,
+				E00CFFF21B6FF1E900DFE20A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00C00051B6FF1E900DFE20A /* MeanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00C00131B6FF1E900DFE20A /* Build configuration list for PBXNativeTarget "MeanderTests" */;
+			buildPhases = (
+				E00C00021B6FF1E900DFE20A /* Sources */,
+				E00C00031B6FF1E900DFE20A /* Frameworks */,
+				E00C00041B6FF1E900DFE20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00C00081B6FF1E900DFE20A /* PBXTargetDependency */,
+			);
+			name = MeanderTests;
+			productName = MeanderTests;
+			productReference = E00C00061B6FF1E900DFE20A /* MeanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E00CFFEC1B6FF1E900DFE20A /* Meander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00C00101B6FF1E900DFE20A /* Build configuration list for PBXNativeTarget "Meander" */;
+			buildPhases = (
+				E00CFFE91B6FF1E900DFE20A /* Sources */,
+				E00CFFEA1B6FF1E900DFE20A /* Frameworks */,
+				E00CFFEB1B6FF1E900DFE20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meander;
+			productName = Meander;
+			productReference = E00CFFED1B6FF1E900DFE20A /* Meander.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00CFFE51B6FF1E800DFE20A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Chan Komagan";
+				TargetAttributes = {
+					E00C00051B6FF1E900DFE20A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E00CFFEC1B6FF1E900DFE20A;
+					};
+					E00CFFEC1B6FF1E900DFE20A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = E00CFFE81B6FF1E800DFE20A /* Build configuration list for PBXProject "Meander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00CFFE41B6FF1E800DFE20A;
+			productRefGroup = E00CFFEE1B6FF1E900DFE20A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00CFFEC1B6FF1E900DFE20A /* Meander */,
+				E00C00051B6FF1E900DFE20A /* MeanderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00C00041B6FF1E900DFE20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00CFFEB1B6FF1E900DFE20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00CFFFC1B6FF1E900DFE20A /* Main.storyboard in Resources */,
+				E00C00011B6FF1E900DFE20A /* LaunchScreen.xib in Resources */,
+				E00CFFFE1B6FF1E900DFE20A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00C00021B6FF1E900DFE20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00C000D1B6FF1E900DFE20A /* MeanderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00CFFE91B6FF1E900DFE20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00CFFF91B6FF1E900DFE20A /* ViewController.m in Sources */,
+				E00CFFF61B6FF1E900DFE20A /* AppDelegate.m in Sources */,
+				E00CFFF31B6FF1E900DFE20A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00C00081B6FF1E900DFE20A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00CFFEC1B6FF1E900DFE20A /* Meander */;
+			targetProxy = E00C00071B6FF1E900DFE20A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E00CFFFA1B6FF1E900DFE20A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00CFFFB1B6FF1E900DFE20A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E00CFFFF1B6FF1E900DFE20A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00C00001B6FF1E900DFE20A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E00C000E1B6FF1E900DFE20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E00C000F1B6FF1E900DFE20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00C00111B6FF1E900DFE20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E00C00121B6FF1E900DFE20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E00C00141B6FF1E900DFE20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meander.app/Meander";
+			};
+			name = Debug;
+		};
+		E00C00151B6FF1E900DFE20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meander.app/Meander";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00C00101B6FF1E900DFE20A /* Build configuration list for PBXNativeTarget "Meander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00C00111B6FF1E900DFE20A /* Debug */,
+				E00C00121B6FF1E900DFE20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E00C00131B6FF1E900DFE20A /* Build configuration list for PBXNativeTarget "MeanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00C00141B6FF1E900DFE20A /* Debug */,
+				E00C00151B6FF1E900DFE20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E00CFFE81B6FF1E800DFE20A /* Build configuration list for PBXProject "Meander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00C000E1B6FF1E900DFE20A /* Debug */,
+				E00C000F1B6FF1E900DFE20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00CFFE51B6FF1E800DFE20A /* Project object */;
+}
